@@ -19,5 +19,5 @@ class TimerBase
 
 end
 
-test = TimerBase.new
-test.run
+timer = TimerBase.new(minutes: 1)
+timer.run
