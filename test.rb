@@ -1,2 +1,5 @@
-filename = "test.py"
-puts File.basename(filename, ".*")
+p [[1, 3],
+ [1, 4],
+ [2, 3],
+ [2, 4]
+].transpose
