@@ -1,15 +1,11 @@
-class Car
-  def accele
-    print("アクセルを踏みました¥n")
+Foo = "main"
+ 
+class Bar
+  Foo = "foo"
+ 
+  def self.foo
+    ::Foo
   end
 end
-
-class Soarer < Car
-  def accele
-    super
-    print("加速しました¥n")
-  end
-end
-
-t = Soarer.new
-t.accele
+ 
+p Bar.foo
